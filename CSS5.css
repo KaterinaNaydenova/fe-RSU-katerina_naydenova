@@ -1,0 +1,28 @@
+body {
+	margin:30px;
+	}
+	
+a{
+	text-decoration: none;
+	}	
+
+	 
+.one:before {
+	content: "| ";	
+	color:red;
+	font-weight:bold;
+}
+
+.one:after {
+	content: " | ";	
+	color:red;
+	font-weight:bold;
+}		
+
+.one:hover:after{
+	opacity:0;	
+}
+
+.one:hover{
+	text-decoration:underline;	
+}

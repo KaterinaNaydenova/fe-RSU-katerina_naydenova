@@ -1,0 +1,15 @@
+
+div{
+	width: 150vw;
+	font-size: 3vw;
+	background-color: RGB(202, 216, 208);	
+    padding: 10 px;
+}
+
+
+@media screen and (min-width: 500px) {
+    div {
+        font-size: 2vw;
+		color: red;
+    }
+}
