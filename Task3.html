@@ -7,44 +7,44 @@
     </head>
     <body>
         
-<form action="action_page.php" method="get">
+<form action="http://httpbin.org/get" method="get">
 <h2>Registration Form</h2>
 <fieldset>
 <legend>Personal Data:</legend>
 		<table>
 			<tr>
-				<td><label>First Name</label></td>
-				<td><input type="text"></td>
+				<td><label for="one">First Name</label></td>
+				<td><input id="one" type="text"></td>
 			</tr>
 			<tr>
-				<td><label>Middle name </label></td>
-				<td><input type="text"></td>
+				<td><label for="two">Middle name </label></td>
+				<td><input id="two" type="text"></td>
 			</tr>	
 			<tr>
-				<td><label>Surname </label></td>
-				<td><input type="text"></td>
+				<td><label for="three">Surname </label></td>
+				<td><input id="three" type="text"></td>
 			</tr>
 			<tr>
-				<td><label>Sex</label></td>
-				<td><input type="radio" name="sex" value="male" checked>Male<br>
-			        <input type="radio" name="sex" value="female" checked>Female</td>
+				<td><label for="four">Sex</label></td>
+				<td><input id="four" type="radio" name="sex" value="male" checked>Male<br>
+			        <input id="four" type="radio" name="sex" value="female" checked>Female</td>
 			</tr>
 			<tr>
-				<td><label>Age</label></td>
-				<td><input type="text"></td>
+				<td><label for="five">Age</label></td>
+				<td><input id="five" type="text"></td>
 			</tr>
 			<tr>
-				<td><label>Country</label></td>
-				<td><input type="text"></td>
+				<td><label for="six">Country</label></td>
+				<td><input id="six" type="text"></td>
 			</tr>	
 			<tr>
-				<td><label>City</label></td>
-				<td><input type="radio" name="city" value="Ryazan">Ryazan
-					<input type="radio" name="sex" value="Moscow">Moscow</td>
+				<td><label for="seven">City</label></td>
+				<td><input id="seven" type="radio" name="city" value="Ryazan">Ryazan
+					<input id="seven" type="radio" name="sex" value="Moscow">Moscow</td>
 			</tr>		
 			<tr>
-				<td><label>Photography:</label></td>
-				<td><button type="button" onclick="alert('Выберите файл!!!')">Выберите файл</button>
+				<td><label for="eight">Photography:</label></td>
+				<td><button id="eight" type="button" onclick="alert('Выберите файл!!!')">Выберите файл</button>
 				<label>Файл не выбран</label></td>
 			</tr>
 		</table>	
@@ -82,21 +82,21 @@
 <legend>Contact Information:</legend>
 	<table>
 		<tr>
-			<td><label> Site: </label></td>
-			<td><input type="text"></td>	
+			<td><label for="nine"> Site: </label></td>
+			<td><input id="nine" type="text"></td>	
 		</tr>
 		<tr>
-			<td><label>Email: </label></td>
-			<td><input type="text"></td>
+			<td><label for="ten">Email: </label></td>
+			<td><input id="ten" type="email"></td>
 		</tr>
 		<tr>
-			<td><label>Phone: </label></td>
-			<td><input type="text"></td>
+			<td><label for="eleven">Phone: </label></td>
+			<td><input id="eleven" type="text"></td>
 		</tr>
 	</table>
 </fieldset>	<br>	
 
-		<label>Password </label><input type="password" required>
+		<label>Password <input type="password" required></label>
 		<hr>
 		
 		<input type="submit" value="Отправить">
