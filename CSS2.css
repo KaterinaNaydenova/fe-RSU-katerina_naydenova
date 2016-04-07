@@ -1,0 +1,39 @@
+table { 
+    border: 4px ; 
+    border-collapse: separate; 
+    border-spacing: 3px 3px;
+	text-align: center;
+	padding: 7px;
+	width:100%;
+	color: RGB(130, 144, 156);
+	font-weight: bold;
+	font-family: verdana;
+   }
+   
+   td:first-child {
+    text-transform: capitalize;
+	}
+   
+   th {
+    text-transform: uppercase;
+	font-weight:bold;
+	}
+   
+   
+   tr:nth-child(2n+1) {
+    background-color: RGB(227, 234, 243); 
+	height: 80px;
+	width: 150px;
+   } 
+   tr:nth-child(2n) {
+    background-color: RGB(242, 246, 250); 
+	height: 80px;
+	width: 150px;
+   } 
+   th {
+	font-weight: normal;
+   }
+   tr:hover:not(:first-child) {
+	 background-color: RGB(130, 144, 156);
+	 color: white;
+   } 
