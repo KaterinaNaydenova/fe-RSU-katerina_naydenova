@@ -1,0 +1,126 @@
+* 		{
+		margin: 0px; padding: 0;
+		font-family: 'Helvetica Neue', Circe, sans-serif;
+		color: white;
+		}
+		
+		.container {
+		display: block;
+		height: 30px;
+		background: #d2d2d2;
+		background-repeat: no-repeat;
+		background-image: url(bg.png)}
+		 
+		.menu {
+		display: inline-block;
+		width: 40px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #679fd0;
+		margin-right: 3px;}
+		
+		
+		.menu:hover {
+		background: #ff5050;}
+			
+		.left_menu {
+		display: flex;
+		position: absolute;
+		left: 0;}
+		
+		.right_menu {
+		display: flex;
+		position: absolute;
+		right: 0;}
+		
+		
+		.red_dot {
+		display: inline-block;
+		background: red;
+	    font-size: 10px;
+	    color: #fff;
+	    text-align: center;
+	    width: 30px;
+	    height: 30px;}
+		
+		
+		.menu_1:hover {
+		background: #ff5050;}
+		
+		
+		.menu_1 {
+		display: inline-block;
+		width: 40px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #679fd0;
+		margin-right: 3px;
+		}
+
+		.menu_1:after {
+			display: inline-block;
+			height: 20px;
+			width: 20px;
+			line-height: 20px;
+			font-size: 10px;
+			position: relative;
+			border-radius: 8px;
+			content: '8';
+			top: 0px;
+			background: #ff5454;
+			}
+	
+
+		.menu_2:hover {
+		background: #ff5050;}
+		
+		
+		.menu_2 {
+		display: inline-block;
+		width: 40px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #679fd0;
+		margin-right: 3px;}
+		
+		.menu_2:after {
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		font-size: 10px;	
+		line-height: 20px;
+		position: relative;
+		border-radius: 8px;	
+		content: '151';
+		top: 0px;
+		background: #ff5454;
+		}
+		
+		.menu_3:hover {
+		background: #ff5050;}
+		
+		
+		.menu_3 {
+		display: inline-block;
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #679fd0;
+		margin-right: 3px;}
+		
+		.menu_3:after {
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		font-size: 10px;
+		position: relative;
+		line-height: 20px;
+		border-radius: 8px;
+		content: '!';
+		top: 0px;
+		background: #ff5454;
+		}
