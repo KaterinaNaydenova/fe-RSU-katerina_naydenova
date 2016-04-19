@@ -7,18 +7,18 @@
     </head>
     <body>
         
-<form action="http://httpbin.org/get" method="get">
+<form action="http://httpbin.org/post" method="post">
 <h2>Registration Form</h2>
 <fieldset>
 <legend>Personal Data:</legend>
 <table>
 	<tr>
 		<td><label for="one">First Name</label></td>
-		<td><input id="one" type="text"></td>
+		<td><input id="one" type="text" name="name"></td>
 	</tr>	
 	<tr>
 		<td><label for="two">Surname</label></td>
-		<td><input id="two" type="text"></td>
+		<td><input id="two" type="text" name="surname"></td>
 	</tr>	
 	<tr>
 		<td><label>Sex</label></td>
@@ -34,15 +34,15 @@
 <table>
 	<tr>
 		<td><label for="three">Site:</label></td>
-		<td><input id="three" type="url"></td>
+		<td><input id="three" type="url" name="site"></td>
 	</tr>
 	<tr>
 		<td><label for="four">Email:</label></td>
-		<td><input id="four" type="email"></td>
+		<td><input id="four" type="email" name="email"></td>
 	</tr>
 	<tr>
 		<td><label for="five">Phone:</label></td>
-		<td><input id="five" type="tel"></td>
+		<td><input id="five" type="tel" name="phone"></td>
 	</tr>		
 </table>
 </fieldset>	<br>	
