@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Flex</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body class="container">
+
+    <header class="header">
+		<p class="header1"><span class="header__text">Help Center</span></p>
+		<p class="header2"><span class="header__text">Our Support</span></p>
+		<p class="header3"><span class="header__text"><img src="face.jpg" width="25px">John Doe &nbsp;&nbsp;<i class="fa fa-check-circle-o" aria-hidden="true"></i></span></p>
+    </header>
+	
+	<main class="main">
+		<aside class="left-side">
+            <nav class="nav">
+				<p class ="nav__item"><button class="button">+ ADD A BOOK</button></p>
+			</nav>
+			<span class="line"></span>
+            <nav class="nav">
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Now Reading</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;Browse</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>&nbsp;Buy Books</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;Favourite Books</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;Wishlist</a></li>
+				<li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;History</a></li>
+            </nav>
+			<span class="line"></span>
+			<nav class="nav">
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-circle" color="#96c13c" aria-hidden="true"></i>&nbsp;Must Read Titles</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-circle" color="#96c13c" aria-hidden="true"></i>&nbsp;Best of List</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-circle" color="#96c13c" aria-hidden="true"></i>&nbsp;Classic Novels</a></li>
+                <li class="nav__item"><a href="#" class="nav__link"><i class="fa fa-circle" color="#96c13c" aria-hidden="true"></i>&nbsp;Non fiction</a></li>
+            </nav>
+			<span class="line"></span>
+			<nav class="nav_updates">
+                <p class="nav__item_updates"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;You added <span class="bright">Fight Club</span> by <span class="bright">Chuck Palanik</span> to your <span class="bright">MUST Read Titles</span></p>
+				<p class="nav__item_updates">24 minutes ago</p>
+                <p class="nav__item_updates"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;You added <span class="bright">The Trial</span> by <span class="bright">Franz Kafka</span> to your <span class="bright">MUST Read Titles</span></p>
+				<p class="nav__item_updates">48 minutes ago</p>
+			</nav>
+        </aside>
+		
+		<section class="section">
+
+            <article class="article">
+				<div class="article__content">Browse Available Books</div>
+			</article>
+			<br>
+			<article class="article">
+				<div class="article">
+					<span class="article_nav_content">All Books</span>
+					<span class="article_nav_content">Most Recent</span>
+					<span class="article_nav_content">Most Popular</span>
+					<span class="article_nav_content">Free Books</span>
+					<form action="" method="post" id="search">
+						<input type="text" name="" placeholder="Enter Keywords" class="input" />
+						<input type="submit" name="" value="" class="submit" />
+					</form>				
+			</article>
+			</div>
+			
+			<article class="article-images">
+					<figure><p class="article_elements"><img src="1.jpg" width="180"></p><figcaption><span class="title">Jewels of Nizam</span><br><span class="author">by Geeta Devi</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="2.jpg" width="180"></p><figcaption><span class="title">Cakes and Bakes</span><br><span class="author">by Sanjeev Kapoor</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="3.jpg" width="180"></p><figcaption><span class="title">Jamie's Kitchen</span><br><span class="author">by Jamie Oliver</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="4.jpg" width="180"></p><figcaption><span class="title">Inexpensive Family Meals</span><br><span class="author">by Simon Holst</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="5.jpg" width="180"></p><figcaption><span class="title">Paleo Slow Cooking</span><br><span class="author">by Chrissy Gower</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="6.jpg" width="180"></p><figcaption><span class="title">Cook Like Italian</span><br><span class="author">by Tobie Puttock</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="7.jpg" width="180"></p><figcaption><span class="title">Suneeta Vaswani</span><br><span class="author">by Geeta Devi</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="8.jpg" width="180"></p><figcaption><span class="title">Jamie Does</span><br><span class="author">by Jamie Oliver</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="9.jpg" width="180"></p><figcaption><span class="title">Jamie's Italy</span><br><span class="author">by Jamie Oliver</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+					<figure><p class="article_elements"><img src="10.jpg" width="180"></p><figcaption><span class="title">Vegetables Cookbook</span><br><span class="author">by Matthew Biggs</span><br><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i><i class="fa fa-star" color="yellow" aria-hidden="true"></i></figcaption></figure>
+			</article>
+		</section>
+	
+	</main>
+
+	<footer class="footer">
+        <div class="footer__text">Naydenova</div>
+    </footer>
+</body>
+
+</html>
